@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<!--本サービスは3年後のMAPとECサイトをイメージしたDemoとしてご覧下さい。-->
+
+
+<html>
+<head>
+<meta charset="utf-8">
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>3D Map</title> 
+<script src='js/three.min.js'></script>
+<script src='js/FirstPersonControls.js'></script>
+<script src='js/threex.proceduralcity.js'></script>
+<script src='js/OBJMTLLoader.js'></script>
+<script src='js/MTLLoader.js'></script>
+    
+
+    
+<!--
+<script src="http://www.x3dom.org/release/x3dom.js"></script>
+    <link rel="stylesheet" href="http://www.x3dom.org/release/x3dom.css">    
+-->
+<style type="text/css">
+#products { display:none;}
+</style>
+
+    
+</head>
+    
+<body style='margin: 0px; background-color: #d8e7ff; overflow: hidden;'>
+
+
+    
+<div id="menu">
+<button id="ss" onClick="move_position() ">目的地に行く</button>
+<button id="aa" onClick="shop = 'true'">SHOPに行く</button>
+<button id="bb" onClick="products_display() ">商品説明</button>    
+</div>
+    
+<!--商品一覧-->
+    
+    
+
+<!--ベッド-->    
+<!--<iframe src="https://clara.io/embed/072833dc-178b-4cc6-878f-599f1467736d?renderer=webgl" width="400" height="300" allowfullscreen></iframe>    -->
+  
+
+    
+<div id="products">    
+<div class="list-box"> 
+    <div class="list-img">
+<iframe src="https://clara.io/embed/072833dc-178b-4cc6-878f-599f1467736d?renderer=webgl" width="400" height="300" allowfullscreen></iframe>
+    </div>
+    <div class="list-text">
+        <p><b>シングルベッド</b></br></br>◆価格：19,800円</br>◆サイズ　S(シングル)：幅100×奥行212×高さ70.5(cm)</br></p>        
+<input type="image" src="https://www.paypalobjects.com/ja_JP/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onclick="alert('決済が完了致しました。お買い上げ有難うございました');">
+<img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1">
+
+    </div>
+    <div class="list-text">
+<iframe src="https://clara.io/embed/af3859fa-bdf0-4af0-8a69-fd34132c39f7?renderer=webgl" width="400" height="300" allowfullscreen></iframe>
+    </div>
+<div class="list-text">
+<p><b>ソファ</b></br></br>◆価格：12,800円</br>◆サイズ　W96×D75～100×H36～29(cm) </br></p>       
+<input type="image" src="https://www.paypalobjects.com/ja_JP/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" onclick="alert('決済が完了致しました。お買い上げ有難うございました');">
+<img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+    </div>
+</div>        
+
+
+<!--ライト-->      
+<!--<iframe src="https://clara.io/embed/750fd9dd-7445-4dbe-afd0-617841b9a530?renderer=webgl" width="400" height="300" allowfullscreen></iframe> -->
+    
+<!--キャビネット-->    
+<!--<iframe src="https://clara.io/embed/1a7faf87-1e90-499a-bde6-b9727f96e8d0?renderer=webgl" width="400" height="300" allowfullscreen></iframe>-->
+    
+    
+    
+<div id=js><script src='js/main.js'></script></div>  
+    
+ 
+    
+    
+</body>
+</html>
